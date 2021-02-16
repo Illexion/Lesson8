@@ -9,10 +9,10 @@ public class GenerateObstacle {
         Wall wall2 = new Wall(3);
         return new Wall[]{wall0,wall1,wall2};
     }
-    public static Jumpuble[] getJumpables(){
-        Jumpuble cat = new Cat("Мурзик", 50, 2);
-        Jumpuble human = new Human("Игнат", 60, 1);
-        Jumpuble robot = new Robot("XiaoBot", 10, 2);
-        return new Jumpuble[]{cat, human, robot};
+    public static Road[] getRoads(){
+        Road road0 = new Road(11);
+        Road road1 = new Road(51);
+        Road road2 = new Road(61);
+        return new Road[]{road0,road1,road2};
     }
 }
