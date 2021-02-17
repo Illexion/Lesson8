@@ -1,6 +1,7 @@
 package interfaces;
+
 import obstacle.*;
 
 public interface Jumpuble {
-    public Boolean jump(Wall wall);
+    Boolean jump(Wall wall);
 }
